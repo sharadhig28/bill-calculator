@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bill Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="split-container">
+            <div class="left-panel">
+            <h2>bill calculator</h2>
+            <input type="text" id="item" placeholder="Item Name">
+            <input type="number" id="price" placeholder="Price">
+            <input type="number" id="quantity" placeholder="Quantity">
+            <input type="number" id="discount" placeholder="Discount(%)">
+            <input type="number" id="gst" placeholder="GST(%)">
+            <button onclick="addItem()">ADD TO CART</button>
+            </div>
+
+            <div class="right-panel">
+                <h2>LIST</h2>
+                    <div id="cart-container">
+                    <ul id="cart"></ul>
+                    </div>
+                <h3 id="total">Grand Total :$0.00</h3>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
