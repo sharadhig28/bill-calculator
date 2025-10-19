@@ -51,6 +51,8 @@ input,button{
     margin: 10px 0;
     padding: 8px;
     font-size: 16px;
+    caret-color: rgb(128, 139, 240);
+    
 }
 
 button{
